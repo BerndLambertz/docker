@@ -5,6 +5,6 @@ FROM alpine:${CODE_VERSION}
 
 MAINTAINER Bernd Lambertz version: 0.1
 
-RUN apt-get update && apt-get install -
+RUN apt-get update && apt-get install
 
 CMD ["/bin/bash"]
