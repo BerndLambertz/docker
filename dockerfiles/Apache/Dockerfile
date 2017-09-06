@@ -1,7 +1,7 @@
 
 # A basic apache server. To use either add or bind mount content under /var/www
 ARG  CODE_VERSION=latest
-FROM ubuntu:${CODE_VERSION}
+FROM alpine:${CODE_VERSION}
 
 MAINTAINER Bernd Lambertz version: 0.1
 
