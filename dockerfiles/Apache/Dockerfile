@@ -1,6 +1,7 @@
 
 # A basic apache server. To use either add or bind mount content under /var/www
-FROM ubuntu:16.04
+ARG  CODE_VERSION=latest
+FROM ubuntu:${CODE_VERSION}
 
 MAINTAINER Bernd Lambertz version: 0.1
 
